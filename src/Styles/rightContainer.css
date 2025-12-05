@@ -1,0 +1,35 @@
+.right-container {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+.resultItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+}
+.resultItem .name {
+  display: flex;
+  flex: 1.5;
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: 62px;
+  background-color: black;
+  border-radius: 5px;
+}
+.resultItem span {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+.btn {
+  background-color: rgb(163, 112, 18);
+  border: none;
+  outline: none;
+  padding: 3px 9px;
+  color: #fff;
+}
